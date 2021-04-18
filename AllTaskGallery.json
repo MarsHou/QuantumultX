@@ -7,7 +7,7 @@
   "repo": "https://github.com/MarsHou/QuantumultX/tree/main",
   "apps": [],
   "task": [{
-    "config": "30 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png",
+    "config": "30 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png",
     "addons": "https://raw.githubusercontent.com/MarsHou/QuantumultX/main/RewriteRemote/AllInOneCookie.conf, tag=AllInOne Cookie获取"
   }, {
     "config": "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js, tag=115, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/115.png",
@@ -91,13 +91,13 @@
     "config": "7 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js, tag=QQ音乐, img-url=https://raw.githubusercontent.com/Orz-3/task/master/qqmusic.png",
     "addons": "https://raw.githubusercontent.com/MarsHou/QuantumultX/main/RewriteRemote/AllInOneCookie.conf, tag=AllInOne Cookie获取"
   }, {
-    "config": "3 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",
+    "config": "3 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么签到 img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",
     "addons": "https://raw.githubusercontent.com/MarsHou/QuantumultX/main/RewriteRemote/AllInOneCookie.conf, tag=AllInOne Cookie获取"
   }, {
     "config": "3 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么-打卡领红包, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",
     "addons": "https://raw.githubusercontent.com/MarsHou/QuantumultX/main/RewriteRemote/AllInOneCookie.conf, tag=AllInOne Cookie获取"
   }, {
-    "config": "0 2 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话,img-url=https://raw.githubusercontent.com/Orz-3/task/master/box.png",
+    "config": "2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话,img-url=https://raw.githubusercontent.com/Orz-3/task/master/box.png",
     "addons": "https://raw.githubusercontent.com/MarsHou/QuantumultX/main/RewriteRemote/AllInOneCookie.conf, tag=AllInOne Cookie获取"
   }]
 }
