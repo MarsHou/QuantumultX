@@ -91,7 +91,7 @@
     "config": "7 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js, tag=QQ音乐, img-url=https://raw.githubusercontent.com/Orz-3/task/master/qqmusic.png",
     "addons": "https://raw.githubusercontent.com/MarsHou/QuantumultX/main/RewriteRemote/AllInOneCookie.conf, tag=AllInOne Cookie获取"
   }, {
-    "config": "3 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么签到 img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",
+    "config": "3 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",
     "addons": "https://raw.githubusercontent.com/MarsHou/QuantumultX/main/RewriteRemote/AllInOneCookie.conf, tag=AllInOne Cookie获取"
   }, {
     "config": "3 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么-打卡领红包, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",
