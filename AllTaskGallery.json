@@ -82,9 +82,6 @@
     "config": "0 0 10,21 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js, tag=欧可林, img-url=https://raw.githubusercontent.com/Orz-3/task/master/Oclean.png",
     "addons": "https://raw.githubusercontent.com/MarsHou/QuantumultX/main/RewriteRemote/AllInOneCookie.conf, tag=AllInOne Cookie获取"
   }, {
-    "config": "6 0 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js, tag=快手极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/kuaishou.png",
-    "addons": "https://raw.githubusercontent.com/MarsHou/QuantumultX/main/RewriteRemote/AllInOneCookie.conf, tag=AllInOne Cookie获取"
-  }, {
     "config": "6 0 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, tag=来客有礼, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png",
     "addons": "https://raw.githubusercontent.com/MarsHou/QuantumultX/main/RewriteRemote/AllInOneCookie.conf, tag=AllInOne Cookie获取"
   }, {
