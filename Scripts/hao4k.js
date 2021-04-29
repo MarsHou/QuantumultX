@@ -11,7 +11,7 @@ if (typeof $request != "undefined") {
 function checkin() {
   $.msg("Hao4K", "", $.getdata('CookieH4K'))
   // $.get({
-  //   url: 'https://www.hao4k.cn/home.php?mod=task&do=apply&id=2&mobile=no',
+  //   url: 'https://www.hao4k.cn/plugin.php?id=k_misign:sign&operation=qiandao&format=text&formhash=a2b626e7',
   //   headers: {
   //     Cookie: CookieH4K || $.getdata("CookieH4K"),
   //   }
