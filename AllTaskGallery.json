@@ -96,5 +96,8 @@
   }, {
     "config": "2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, tag=切换会话,img-url=https://raw.githubusercontent.com/Orz-3/task/master/box.png",
     "addons": "https://raw.githubusercontent.com/MarsHou/QuantumultX/main/RewriteRemote/AllInOneCookie.conf, tag=AllInOne Cookie获取"
+  }, {
+    "config": "0 0 * * * https://raw.githubusercontent.com/dompling/Script/master/jd/jd_jr_sign.js, tag=京东金融,img-url=https://raw.githubusercontent.com/Orz-3/task/master/jdczf.png",
+    "addons": "https://raw.githubusercontent.com/MarsHou/QuantumultX/main/RewriteRemote/AllInOneCookie.conf, tag=AllInOne Cookie获取"
   }]
 }
