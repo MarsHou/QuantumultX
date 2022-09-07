@@ -1,24 +1,24 @@
 # > HBOMAX
-USER-AGENT,HBOMAX*
-DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,hbomaxcdn.com
+USER-AGENT, HBOMAX*, HBO
+DOMAIN-SUFFIX, hbomax.com, HBO
+DOMAIN-SUFFIX, hbomaxcdn.com, HBO
 # > HBO NOW
-user-agent, HBO%20NOW*, GlobalMedia
-host-suffix, hbo.com, GlobalMedia
-host-suffix, hbogo.com, GlobalMedia
-host-suffix, hbonow.com, GlobalMedia
+user-agent, HBO%20NOW*, HBO
+host-suffix, hbo.com, HBO
+host-suffix, hbogo.com, HBO
+host-suffix, hbonow.com, HBO
 # > HBO GO HKG
-user-agent, HBO%20GO%20PROD%20HKG*, GlobalMedia
-host-suffix, hbogoasia.com, GlobalMedia
-host-suffix, hbogoasia.hk, GlobalMedia
-host, bcbolthboa-a.akamaihd.net, GlobalMedia
-host, players.brightcove.net, GlobalMedia
-host, s3-ap-southeast-1.amazonaws.com, GlobalMedia
-host, dai3fd1oh325y.cloudfront.net, GlobalMedia
-host, 44wilhpljf.execute-api.ap-southeast-1.amazonaws.com, GlobalMedia
-host, hboasia1-i.akamaihd.net, GlobalMedia
-host, hboasia2-i.akamaihd.net, GlobalMedia
-host, hboasia3-i.akamaihd.net, GlobalMedia
-host, hboasia4-i.akamaihd.net, GlobalMedia
-host, hboasia5-i.akamaihd.net, GlobalMedia
-host, cf-images.ap-southeast-1.prod.boltdns.net, GlobalMedia
+user-agent, HBO%20GO%20PROD%20HKG*, HBO
+host-suffix, hbogoasia.com, HBO
+host-suffix, hbogoasia.hk, HBO
+host, bcbolthboa-a.akamaihd.net, HBO
+host, players.brightcove.net, HBO
+host, s3-ap-southeast-1.amazonaws.com, HBO
+host, dai3fd1oh325y.cloudfront.net, HBO
+host, 44wilhpljf.execute-api.ap-southeast-1.amazonaws.com, HBO
+host, hboasia1-i.akamaihd.net, HBO
+host, hboasia2-i.akamaihd.net, HBO
+host, hboasia3-i.akamaihd.net, HBO
+host, hboasia4-i.akamaihd.net, HBO
+host, hboasia5-i.akamaihd.net, HBO
+host, cf-images.ap-southeast-1.prod.boltdns.net, HBO
