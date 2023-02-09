@@ -1,10 +1,7 @@
-# > iCloud
-DOMAIN-SUFFIX,gateway.icloud.com
-
 # > News
+DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,news-edge.apple.com
 DOMAIN-SUFFIX,news-events.apple.com
 DOMAIN-SUFFIX,apple.comscoreresearch.com
 DOMAIN-SUFFIX,apple.news
-# News+ Audio
 DOMAIN-SUFFIX,news-assets.apple.com
