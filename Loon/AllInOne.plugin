@@ -3,7 +3,6 @@
 http-request ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 
-http-response ^https?:\/\/auth.aliyundrive.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js,requires-body=1
 
 [MITM]
-hostname = api.revenuecat.com %APPEND% auth.aliyundrive.com
+hostname = api.revenuecat.com
