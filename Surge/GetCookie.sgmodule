@@ -3,7 +3,7 @@
 [Script]
 # > 阿里云盘签到
 阿里云盘签到cookie = requires-body=1,type=http-response,pattern=https:\/\/auth.aliyundrive.com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
-
+贴吧获取Cookie = type=http-request,pattern=https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
 
 [MITM]
-hostname = %APPEND% auth.aliyundrive.com
+hostname = %APPEND% auth.aliyundrive.com,c.tieba.baidu.com
