@@ -6,4 +6,4 @@
 
 
 [MITM]
-hostname = auth.aliyundrive.com
+hostname = %APPEND% auth.aliyundrive.com
