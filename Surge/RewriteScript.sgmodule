@@ -27,7 +27,11 @@ themekuwo.js = requires-body=1,max-size=0,script-path=https://raw.githubusercont
 Bili Region = type=http-response,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/view\/(v\d\/)?app|x(\/v\d)?\/view\/video)\/(season|online)\?access_key,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
 Bili Search = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/search\/type\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
 
+# > 淘宝京东比价
+jd_price.js = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+tb_price.js = type=http-response,requires-body=1,pattern=^http://.+/amdc/mobileDispatch,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+tb_price.js = type=http-response,requires-body=1,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 
 
 [MITM]
-hostname = %APPEND% api.revenuecat.com, api.weibo.cn,mapi.weibo.com,*.uve.weibo.com, mp.weixin.qq.com, ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,mb3admin.com,www.mb3admin.com, *.kuwo.cn,vip1.kuwo.cn, ap?.bilibili.com,api.bilibili.com,app.bilibili.com
+hostname = %APPEND% api.revenuecat.com, api.weibo.cn,mapi.weibo.com,*.uve.weibo.com, mp.weixin.qq.com, ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,mb3admin.com,www.mb3admin.com, *.kuwo.cn,vip1.kuwo.cn, ap?.bilibili.com,api.bilibili.com,app.bilibili.com,trade-acs.m.taobao.com,api.m.jd.com
