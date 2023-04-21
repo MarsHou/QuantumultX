@@ -9,27 +9,9 @@ reload = title=不开心就刷新一下我的我！,content=宝～ 今天也要�
 #流量统计
 TrafficStatistics = script-name=TrafficStatistics,update-interval=1
 
-# 网络信息面板
-net-info-panel = title="网络状态",content="请刷新",style=info,script-name=net-info-panel
-
-#流媒体解锁状态
-stream-all = script-name=stream-all, title="流媒体解锁检测", content="请刷新面板", update-interval=3600
-
-# 刷新DNS
-flushDNS = script-name=flushDNS,update-interval=600
-
 [Script]
 #开心一点
 reload=script-path=https://raw.githubusercontent.com/Onlookers-Group/Texonin-LAB-Public/main/Surge/js/js_baby/zReload.js,type=generic
-
-# 网络信息面板
-net-info-panel=script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tools/Panels/NetInfo/net-info-panel.js,type=generic
-
-# 刷新DNS
-flushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/flushDNS.js,argument=title=DNS FLush&icon=arrow.clockwise&color=#3d3d5b&server=false
-
-#流媒体解锁状态
-stream-all = type=generic, timeout=15, script-path=https://raw.githubusercontent.com/LucaLin233/Luca_Conf/main/Surge/JS/stream-all.js
 
 #流量统计
 #应当修改的字段：network : en0→WiFi pdp_ip0→卡1 pdp_ip1→卡2
