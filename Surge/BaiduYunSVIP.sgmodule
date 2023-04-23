@@ -1,5 +1,5 @@
 #!name=百度云盘SVIP
-#!desc=百度云倍速播放 SVIP10、guide、vipcard
+#!desc=百度云倍速播放 SVIP、guide、vipcard
 
 [Script]
 guide = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user\?.*method=guide.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/MarsHou/QuantumultX/main/Scripts/baiduyun_guide.js
