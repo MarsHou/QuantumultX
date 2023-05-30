@@ -1,0 +1,10 @@
+#!name=百度云盘SVIP
+#!desc=百度云倍速播放 SVIP、guide、vipcard
+
+[Script]
+guide = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user\?.*method=guide.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/MarsHou/QuantumultX/main/Scripts/baiduyun_guide.js
+vipcard = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user\?.*method=vipcard$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/MarsHou/QuantumultX/main/Scripts/baiduyun_vipcard.js
+svip = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user\?(?!.*method=(guide|vipcard)).*$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/MarsHou/QuantumultX/main/Scripts/baiduyun_svip.js
+
+[MITM]
+hostname = %APPEND% pan.baidu.com
