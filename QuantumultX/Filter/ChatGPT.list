@@ -1,9 +1,9 @@
-host-keyword,openai,ChatGPT
-host-keyword,openaiapi,ChatGPT
-host-suffix,openai.com,ChatGPT
-host-suffix,chat.openai.com,ChatGPT
-host-suffix,challenges.cloudflare.com,ChatGPT
-host-suffix,auth0.openai.com,ChatGPT
-host-suffix,platform.openai.com,ChatGPT
+host-keyword, openai, ChatGPT
+host-keyword, openaiapi, ChatGPT
+host-suffix, openai.com, ChatGPT
+host-suffix, chat.openai.com, ChatGPT
+host-suffix, challenges.cloudflare.com, ChatGPT
+host-suffix, auth0.openai.com, ChatGPT
+host-suffix, platform.openai.com, ChatGPT
 # Add ai.com
-host-suffix,ai.com,ChatGPT
+host-suffix, ai.com, ChatGPT
