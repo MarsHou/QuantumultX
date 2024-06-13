@@ -1,6 +1,7 @@
 host-keyword, openai, ChatGPT
 host-keyword, openaiapi, ChatGPT
 host-suffix, openai.com, ChatGPT
+host-suffix, chatgpt.com, ChatGPT
 host-suffix, chat.openai.com, ChatGPT
 host-suffix, challenges.cloudflare.com, ChatGPT
 host-suffix, auth0.openai.com, ChatGPT
