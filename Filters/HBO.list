@@ -1,3 +1,6 @@
+# > MAX
+DOMAIN-SUFFIX, max.com
+DOMAIN-SUFFIX, discomax.com
 # > HBOMAX
 USER-AGENT, HBOMAX*
 DOMAIN-SUFFIX, hbomax.com
