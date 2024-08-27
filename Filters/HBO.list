@@ -5,6 +5,7 @@ DOMAIN-SUFFIX, discomax.com
 USER-AGENT, HBOMAX*
 DOMAIN-SUFFIX, hbomax.com
 DOMAIN-SUFFIX, hbomaxcdn.com
+DOMAIN-SUFFIX, brightline.tv
 # > HBO NOW
 USER-AGENT, HBO%20NOW*
 DOMAIN-SUFFIX, hbo.com
