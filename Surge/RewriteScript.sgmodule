@@ -16,20 +16,10 @@ Emby解锁 = type=http-response,pattern=^http(s?):\/\/(www\.|)mb3admin\.com\/.*$
 ## 去微信公众号广告
 http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 
-## 酷我音乐vip
-http-response ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
-## 酷我换肤(已经有的皮肤需要先从本地皮肤删除再换 By@ s y)
-themekuwo.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/themekuwo.js,type=http-response,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme)
 
 ## Bilibili港澳台番剧自动切换地区 & 显示豆瓣评分
 Bili Region = type=http-response,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/view\/(v\d\/)?app|x(\/v\d)?\/view\/video)\/(season|online)\?access_key,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
 Bili Search = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/search\/type\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
-
-# > 淘宝京东比价
-http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
-
-http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
-http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 
 # > SparkMail解锁永久订阅
 #!desc=SparkMail解锁永久订阅
@@ -40,4 +30,4 @@ http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getde
 SparkMail解锁永久订阅 = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\w{14})$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/SparkMailProCrack.js
 
 [MITM]
-hostname = %APPEND% api.revenuecat.com, mp.weixin.qq.com, ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,mb3admin.com,www.mb3admin.com, *.kuwo.cn,vip1.kuwo.cn, ap?.bilibili.com,api.bilibili.com,app.bilibili.com,trade-acs.m.taobao.com,api.m.jd.com
+hostname = %APPEND% api.revenuecat.com, mp.weixin.qq.com, ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,mb3admin.com,www.mb3admin.com,ap?.bilibili.com,api.bilibili.com,app.bilibili.com
